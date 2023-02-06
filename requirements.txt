@@ -1,0 +1,11 @@
+flask==2.0.3
+flask-cors
+Flask-Caching
+pymysql
+redis
+configparser
+requests
+Werkzeug
+Authlib
+flask_parameter_validation
+python-dateutil
