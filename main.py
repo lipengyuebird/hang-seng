@@ -12,9 +12,10 @@ os.environ['FLASK_ENV'] = 'prod'
 os.environ['FLASK_APP'] = 'hang-seng'
 
 
-from hang_seng import app
+from hang_seng import app, bus
 import api
 
 
 if __name__ == '__main__':
+    bus.run()
     app.run(port=5002)

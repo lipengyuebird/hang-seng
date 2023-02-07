@@ -7,5 +7,6 @@
 
 prod = {
     'SERVER_ADDRESSES': 'localhost:8848',
-    'CACHE_TYPE': None,
+    # 'SERVER_ADDRESSES': '8.130.47.183:8848',
+    'CACHE_TYPE': 'SimpleCache',
 }

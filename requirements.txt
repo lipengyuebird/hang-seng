@@ -9,3 +9,4 @@ Werkzeug
 Authlib
 flask_parameter_validation
 python-dateutil
+flask-kafka
