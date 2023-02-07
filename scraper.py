@@ -14,7 +14,7 @@ import util.currencies
 from extensions import cache
 
 
-@cache.memoize(timeout=300)
+@cache.memoize(timeout=3600)
 def scrape_exchange_rate_hkd() -> Dict:
     tt_data = json.loads(requests.get(
         'https://rbwm-api.hsbc.com.hk/pws-hk-hase-rates-papi-prod-proxy/v1/fxtt-exchange-rates'
